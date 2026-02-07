@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will You Be My Valentine?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- Main card -->
+  <div class="card" id="card">
+    <div class="envelope" id="envelope">
+      <div class="envelope-flap"></div>
+      <div class="envelope-body">
+        <span class="envelope-heart">💌</span>
+      </div>
+      <p class="tap-hint">Tap to open</p>
+    </div>
+
+    <div class="letter hidden" id="letter">
+      <div class="emoji bounce">❤️ 😘 🐱</div>
+      <h1 class="title">My Dearest Bachwa</h1>
+      <h2 class="question">Will you be my Valentine? 💕</h2>
+      <p class="subtitle">If Yes... there's a surprise waiting for you!</p>
+
+      <div class="buttons">
+        <button id="yesBtn">Yes! 💖</button>
+        <button id="noBtn">No 😢</button>
+      </div>
+
+      <p id="message" class="message">If "No" seems a bit shy... 🙈😎</p>
+    </div>
+  </div>
+
+  <!-- Confetti library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>  <script src="script.js"></script>
+</body>
+</html>
